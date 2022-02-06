@@ -1,11 +1,10 @@
 import React, { Component } from "react";
-import logo from "../assets/logo_colored_trans.png";
 import "./css/logo.css";
 
-const Logo = () => {
+const Logo = ({ url }) => {
   return (
     <div>
-      <img src={logo} alt="logo" className="img" />
+      <img src={url} alt="logo" className="img" />
     </div>
   );
 };

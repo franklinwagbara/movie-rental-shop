@@ -2,14 +2,16 @@ import React, { Component } from "react";
 import "./css/theme.css";
 import "./css/navbar.css";
 import Logo from "./logo";
+import logo from "../assets/logo_trans.png";
 
 const NavBar = () => {
+  const url = logo;
   return (
     <div>
       <nav className="row navbar navbar-expand-md back-color">
         <div className="col-8">
           <a className="navbar-brand" href="#">
-            <Logo />
+            <Logo url={url} />
           </a>
           <button
             className="navbar-toggler"
