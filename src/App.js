@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import NavBar from "./components/navbar";
-import Main from "./components/content";
+import Main from "./components/main";
 import Footer from "./components/footer";
 
 class App extends Component {
