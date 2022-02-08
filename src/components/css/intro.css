@@ -1,7 +1,10 @@
-.footer {
+.intro {
   display: flex;
   justify-content: center;
   height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  min-height: 500px;
   background: rgb(193, 193, 222);
   background: linear-gradient(
     90deg,
@@ -11,17 +14,24 @@
   );
 }
 
-.footer div {
-  margin-top: 50px;
+.intro div {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1500px;
-  height: 95%;
+  width: 1200px;
+  margin: 20px;
+  height: 100%;
   background-color: #0b1a30;
 }
 
-.footer div span {
+.intro div:hover {
+  width: 1220px;
+  height: 107%;
+  margin: 10px;
+  margin-top: -5px;
+}
+
+.intro div span {
   color: white;
   font-size: 1rem;
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
